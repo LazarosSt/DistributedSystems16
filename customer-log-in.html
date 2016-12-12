@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+			input[type=text] {
+				width: 70%;
+				padding: 12px 20px;
+				margin: 8px 0;
+			}
+		
+			input[type=submit] {
+				background-color: green;
+				color: white;
+				padding: 12px 20px;
+				margin: 8px 0;
+				border: none;
+			}
+			
+			.Lbutton {
+				background-color: red;
+				color: white;
+				padding: 12px 20px;
+				margin: 8px 0;
+				border: none;
+			}	
+		</style>
+	</head>
+
+	<body>
+		<h2>Customer Registration Form</h2>
+	
+		<form action="some-page" method="post">
+			Please enter a customer name:<br>
+			<input type="text" placeholder="name" name="cuname" required><br>
+			Please enter a customer surname:<br>
+			<input type="text" placeholder="surname" name="cusurname" required><br>
+			Please enter a customer TRN(TAX REGISTRATION NUMBER):<br>
+			<input type="text" placeholder="TRN" name="cuTRN" required><br>
+			Please enter a customer phone number:<br>
+			<input type="text" placeholder="phone number" name="cuphone" required><br>
+			<input type="submit" value="Submit"> 
+		</form>
+		<button type="button" class="Lbutton" >Cancel/Logout</button>
+	</body>
+</html>
